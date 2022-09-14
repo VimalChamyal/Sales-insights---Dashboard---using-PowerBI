@@ -3,7 +3,7 @@ This project has the sales insights of a company which sells computer hardware a
 
 SQL database dump is in db_dump.sql file above. Once can download the db_dump.sql file.
 
-# Steps I performed for doing data analysis Using SQL
+# Some of my steps for doing data analysis using MySql
 Show all customer records
 
 SELECT * FROM customers;
