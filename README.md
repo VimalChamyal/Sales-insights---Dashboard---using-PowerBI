@@ -1,7 +1,8 @@
-# Sales-insights-Data-analysis-project
-This project has the sales insights of Atliq, a company which sells computer hardware and other accessories. I have used MySQL for performing Data analysis, then imported the data from there to PowerBI for Data transformation and data visualization & report making/dashboarding
+Sales Insights Data Analysis Project
+Instructions to setup mysql on your local computer
+Follow step in this video to install mysql on your local computer https://www.youtube.com/watch?v=WuBcTJnIuzo
 
-SQL database dump is in db_dump.sql file above. Once can download the db_dump.sql file.
+SQL database dump is in db_dump.sql file above. Download db_dump.sql file to your local computer and import it as per instructions given in the tutorial video
 
 Data Analysis Using SQL
 Show all customer records
@@ -41,5 +42,5 @@ Show total revenue in year 2020 in Chennai
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 
 Data Analysis Using Power BI
-Formula used to create norm_amount column
+Formula to create norm_amount column
 = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
