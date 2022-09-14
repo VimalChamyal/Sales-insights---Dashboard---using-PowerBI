@@ -3,6 +3,9 @@ This project has the sales insights of a company which sells computer hardware a
 
 SQL database dump is in db_dump.sql file above. Once can download the db_dump.sql file.
 
+Get a glimpse of the dashboard through the snap taken below
+![image](https://user-images.githubusercontent.com/101229988/190121361-016345e6-2d4f-4e8b-86be-ed9889b12939.png)
+
 # Some of my steps for doing data analysis using MySql
 Show all customer records
 
