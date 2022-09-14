@@ -1,9 +1,9 @@
 # Sales-insights-Data-analysis-project
-This project has the sales insights of Atliq, a company which sells computer hardware and other accessories. I have used MySQL for performing Data analysis, then imported the data from there to PowerBI for Data transformation and data visualization & report making/dashboarding
+This project has the sales insights of a company which sells computer hardware and other accessories. I have used MySQL for performing Data analysis, then imported the data from there to PowerBI for Data transformation and data visualization & report making/dashboarding
 
 SQL database dump is in db_dump.sql file above. Once can download the db_dump.sql file.
 
-Data Analysis Using SQL
+#Steps I performed for doing data analysis Using SQL
 Show all customer records
 
 SELECT * FROM customers;
